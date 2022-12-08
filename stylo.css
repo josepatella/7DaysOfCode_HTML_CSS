@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    width: 1440px;
+    
+}
+
+p{
+    color: #667085;
+    margin: 0px;
+}
+
+h4{
+    margin: 0px;
+}
+
+header {
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #667085;
+}
+
+ul{
+    padding: 0px;
+}
+span{
+    line-height: 24px;
+    color: #667085;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 44px;
+    margin: 18px 80px;
+    padding: 0px 32px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo_logo{
+    width: 27px;
+    height: auto;
+    margin-right: 8px;
+}
+.titulo_logo{
+    font-size: 18px;
+    color: #3A404E;
+}
+
+.paginas{
+    align-items: flex-start;
+}
+
+.paginas_ul{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.paginas_ul li{
+    list-style: none;
+    margin: 12px 16px;
+}
+
+.espaco{
+    width: 142px;
+    height: 32px;
+}
+
+.botoes_nav{
+    display: flex;
+    align-items: center;
+}
+
+.botao_cadastrar{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: #8E2424;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.botao_entrar{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #667085;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 407px;
+    padding: 96px, 0px;
+}
+
+.titulo_section{
+    font-size: 16px;
+    font-weight: 600;
+    color:#8E2424;
+    margin-top: 100px;
+    margin-bottom: 16px;
+    padding: 0px;
+}
+
+.titulo{
+    font-size: 48px;
+    font-weight: 600;
+    color: #101828;
+    letter-spacing: -0.02em;
+    margin: 18px 0px;
+    padding: 0px;
+}
+
+.paragrafo_destaque{
+    font-size: 20px;
+    color: #667085;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+}
+
+.container_paragrafo_destaque{
+    display: flex;
+    align-items: center;
+    width: 791px;
+    height: 60px;
+    padding: 12px 0px;
+    margin: 12px 0px 96px 0px;
+}
+
+.metricas_container{
+    display: flex;
+    height: 288px;
+    margin: 0px 80px;
+    justify-content: space-evenly;
+}
+
+.metricas_container_filho{
+    width: 280px;
+}
+
+.titulo_numeros{
+   font-size: 60px;
+   font-weight: 600;
+   line-height: 72px;
+   letter-spacing: -0.02em;
+   text-align: left;
+   color: #8E2424;
+}
+
+.subtitulo_div{
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    text-align: left;
+    margin-top: 12px;   
+}
+    
+.texto_padrao{
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+.section_vagas{
+    height: 1606px;
+    width: 1440px;
+    padding: 96px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.talentos{
+    width: 1280px;
+    height: 602px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas_abertas{
+    width: 1280px;
+    height: 940px;
+
+}
+
+.img_reuniao{
+    height: 400px;
+    width: 1216px;
+    margin-top: 64px;
+}
+
+.heading{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.titulo_talentos{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8E2424;
+    padding: 4px 12px;
+    height: 28px;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 16px;
+    width: 125px;
+    box-sizing: border-box;
+}
+
+.vagas_abertas{
+    width: 1280px;
+    height: 940px;
+    margin: 0px 80px 96px 80px;
+}
+
+.vagas_categoria{
+    display: flex;
+    flex-direction: column;
+}
+.vagas{
+    height: 136px;
+    width: 768px;
+    border-radius: 16px;
+    border: 1px solid #EAECF0;
+    margin: 12px auto;
+    padding: 24px 24px 28px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo_vagas_categoria{
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+    width: 768px;
+    height: 30px;
+    margin: 64px auto 20px auto;
+}
+
+.titulo_vagas{
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+
+.depoimentos{
+    height: 500px;
+    width: 1440px;
+    padding-bottom: 96px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_depoimentos{
+    height: 404px;
+    width: 1216px;
+    border-radius: 16px;
+    padding: 64px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(196, 25, 25, 0.03);
+}
+
+.titulo_depoimentos{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #8E2424;
+    margin-bottom: 16px;
+}
+
+.foto_avatar{
+    height: 56px;
+    width: 56px;
+    margin-bottom: 16px;
+    margin-top: 12px;
+}
+
+.avatar{
+    height: 120px;
+    width: 1088px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome_avatar{
+    color: #101828;
+    margin-bottom: 4px;
+}
+
+.vaga_avatar{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.formulario{
+    height: 430px;
+    width: 1440px;
+    box-sizing: border-box;
+    padding: 96px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro_email{
+    margin: 40px 0px 32px;
+}
+
+input.cadastro_email{
+    width: 360px;
+    height: 48px;
+    box-sizing: border-box;
+    padding: 12px 14px 12px 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button.cadastro_email{
+    height: 48px;
+    width: 116px;
+    border-radius: 8px;
+    padding: 12px 20px;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    background-color: #8E2424;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer{
+    font-weight: 400;
+}
+
